@@ -1,0 +1,366 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-out {
+  width: 100%;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.btn {
+  width: 228px;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#8c26ff), color-stop(#7723ff), to(#b01eff));
+  background: linear-gradient(90deg, #8c26ff, #7723ff, #b01eff);
+  border: 1px solid #7723FF;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+
+.btn-link:hover {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.btn2 {
+  width: 180px;
+  background: -webkit-gradient(linear, left top, right top, from(#9b51e0), to(#3436e7));
+  background: linear-gradient(90deg, #9b51e0, #3436e7);
+}
+
+.containe {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background: url(../img/bg/nav-bg.png) top center/100% no-repeat;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 58px 0;
+}
+
+header .menu-item {
+  list-style-type: none;
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .menu-item:nth-child(6) {
+  margin-right: 0;
+}
+
+header .menu-link {
+  display: block;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+header .menu-img {
+  width: 30px;
+  height: 30px;
+}
+
+header .menu-img2 {
+  width: 30px;
+  height: 35px;
+}
+
+header .menu-logo {
+  margin-right: 50px;
+}
+
+header .menu-number {
+  margin-left: 32px;
+}
+
+header .mask {
+  border: 1px solid #212C4F;
+  border-radius: 14px;
+  background: url(../img/bg/Mask-bg.png) 0 0/cover no-repeat;
+  padding: 50px;
+}
+
+header .mask-head {
+  color: #F0F3F5;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+header .mask-download {
+  color: #C6D0EB;
+  font-weight: 500;
+}
+
+header .mask-download-courses {
+  margin-right: 29px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+header .mask-download-gb {
+  font-size: 12px;
+}
+
+header .mask-text {
+  margin-top: 10px;
+  color: #F0F3F5;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+header .mask button {
+  margin-top: 24px;
+}
+
+.popular {
+  margin-top: 50px;
+}
+
+.popular-header {
+  font-size: 30px;
+  color: #205284;
+  margin-top: 10px;
+}
+
+.popular-item {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popular-item .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0 5px 2px #C6D0EB;
+          box-shadow: 0 0 5px 2px #C6D0EB;
+  min-height: 400px;
+  padding: 40px;
+  border: 1px solid #C6D0EB;
+  border-radius: 20px;
+}
+
+.popular-item .block-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #205284;
+}
+
+.popular-item h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #205284;
+}
+
+.popular-item-big {
+  width: 100%;
+  margin-right: 40px;
+  background: url(../img/icon/telephone.png) 50% 60%/50% no-repeat;
+  background-color: #fff;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.popular-item-big:hover {
+  background: url(../img/icon/telephone.png) 50% 60%/60% no-repeat;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.popular-item-little {
+  min-width: 320px;
+  background-color: #fff;
+}
+
+.popular-item-big2 {
+  margin-right: 0;
+  margin-left: 40px;
+  background: none;
+  background-color: #fff;
+}
+
+.popular-item-big2:hover {
+  background: none;
+}
+
+.popular .download-courses {
+  text-transform: uppercase;
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #C6D0EB;
+}
+
+.popular .download-img {
+  margin: 50px auto 0;
+}
+
+.popular .download-img img {
+  cursor: pointer;
+  width: 90px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  opacity: 1;
+}
+
+.popular .download-img:hover img {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  opacity: 0.8;
+}
+
+.popular .download-gb {
+  font-size: 12px;
+  font-weight: 500;
+  color: #C6D0EB;
+}
+
+.popular .download-img2 img {
+  margin-left: 130px;
+  width: 267px;
+}
+
+.downloads .shell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 113px;
+}
+
+.downloads-header {
+  margin-top: 63px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #205284;
+}
+
+.downloads-item-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.downloads-item-element-icon img {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.downloads-item-element-text h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212C4F;
+}
+
+.downloads-item-element-text h4 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #205284;
+}
+
+.downloads-item-element-text h5 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #205284;
+}
+
+.downloads-item-element-donl {
+  margin: auto 0;
+  margin-left: 40px;
+}
+
+.tweet {
+  background-color: #F1F3F5;
+  padding: 45px 0;
+}
+
+.tweet .containe h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #486791;
+  margin-top: 50px;
+}
+
+.tweet-head h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #486791;
+}
+
+.tweet-head button {
+  display: block;
+  margin: 30px auto 53px;
+}
+
+.tweet-head button img {
+  margin-right: 20px;
+}
+
+.tweet-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tweet-menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tweet-menu-item h6 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #94A4BA;
+}
+
+.tweet-menu-item a {
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #5334F5;
+}
